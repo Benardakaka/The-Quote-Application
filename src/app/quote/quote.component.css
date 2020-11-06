@@ -3,4 +3,8 @@ button{
     margin-left: 1em;
     margin-right: 1em;
     display: flexbox;
+    height: 2em;
+    width: 400px;
 }
+
+
