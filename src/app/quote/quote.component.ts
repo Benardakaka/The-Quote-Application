@@ -9,10 +9,10 @@ import { Quote } from '../quote';
 })
 export class  QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1, 'BENARD AKAKA', "“Education is the most powerful weapon which you can use to change the world",new Date()),
-    new Quote(2,'Dorcus Atwoli',"“If You are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people”",new Date()),
-    new Quote(3,'Francis Mbugua',"“When you educate one person you can change a life, when you educate many you can change the world”",new Date()),
-    new Quote(4,'Phillipia Eve', "“Luck or Success favor the prepared minds",new Date()),
+    new Quote(1, 'BENARD AKAKA', "“Education is the most powerful weapon which you can use to change the world if you are planning for a lifetime, educate people............",new Date()),
+    new Quote(2,'PHILIPIA EVE',"“If You are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people”",new Date()),
+    new Quote(3,'FRANCIA MBUGUA',"“When you educate one person you can change a life, when you educate many you can change the world if you are planning for a lifetime, educate”",new Date()),
+    // new Quote(4,'Phillipia Eve', "“Luck or Success favor the prepared minds",new Date()),
   ];  
  
   like(index){
