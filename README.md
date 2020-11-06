@@ -1,6 +1,15 @@
-# TheQuoteApplication
+## TheQuoteApplication
+## Description: 
+# The-Quote ordering web application.
+* The-Quote is an angular application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. 
+## Author:
+# BENARD AKAKA
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+
+Topics
+Resources
+
+This project was generated with [Angular CLI](https://github.com/Benardakaka/The-Quote-Application) version 10.2.0.
 
 ## Development server
 
