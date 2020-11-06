@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row flex-top justify-content-center">
+    <header class="border shadow">
+      <h1>The-Quote-Application</h1>
+    </header>
+  </div><br>
+  
+ <div class="container">
+  <div class="row flex-top justify-content-center">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card" style="width: 18rem" *ngFor="let quote of quotes; let i = index">
+     
+        <div class="card-body" >
+
+          <h5 class="card-title">{{ quote.id }} {{ quote.author }}</h5>
+          <p class="card-text">{{ quote.user }}</p>
+          <button class="btn btn-primary" (click)='like(i)'>LIKE {{ quote.like }}</button>
+          <button class="btn btn-primary" (click)='unlike(i)'>UNLIKE {{ quote.unlike }}</button>
+          <button class="btn btn-secondary" (click) = 'deleteQuote($event,i)'>DELETE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+</div>
+</div>
