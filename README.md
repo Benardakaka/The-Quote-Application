@@ -7,7 +7,7 @@
 
  ## TECKNOLOGY USED
  * [HTML5]
- * [ANGULARCLI]
+ * [ANGULAR CLI]
  * [CSS]
  * [BOOTSTRAP]
  * [MARKDOWM]
