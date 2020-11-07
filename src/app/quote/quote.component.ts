@@ -12,7 +12,7 @@ export class  QuoteComponent implements OnInit {
     new Quote(1, 'BENARD AKAKA', "“Education is the most powerful weapon which you can use to change the world if you are planning for a lifetime, educate people............",new Date()),
     new Quote(2,'PHILIPIA EVE',"“If You are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people”",new Date()),
     new Quote(3,'FRANCIA MBUGUA',"“When you educate one person you can change a life, when you educate many you can change the world if you are planning for a lifetime, educate”",new Date()),
-     new Quote(4,'LAVENDAH AKAKA', " “The beautiful thing about learning is that no one can take it away from you ” ",new Date()),
+     new Quote(4,'LAVENDAH AKAKA', " “The beautiful thing about learning is that no one can take it away from you ” ",new Date(2020,12,21)),
      new Quote(2,'VIOLET ASEKA',"“If You are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate people”",new Date()),
     new Quote(3,'KERRY KOGEI',"“When you educate one person you can change a life, when you educate many you can change the world if you are planning for a lifetime, educate”",new Date()),
   
