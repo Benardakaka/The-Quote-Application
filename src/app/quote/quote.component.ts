@@ -9,7 +9,7 @@ import { Quote } from '../quote';
 })
 export class  QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    new Quote(1,'BENARD AKAKA', "“Education is the most powerful weapon which you can use to change the world if you are planning for a lifetime, educate people...........",new Date(2020,10,11)),
+    new Quote(1,'BENARD AKAKA', "“Education is the most powerful weapon which you can use to change the world if you are planning for a lifetime, educate people...........",new Date(2020,12,12)),
     new Quote(2,'PHILIPIA EVELINE',"“If You are planning for a year, sow rice; if you are planning for a decade, plant trees; if you are planning for a lifetime, educate ”",new Date(2020,11,12)),
     new Quote(3,'FRANCIA MBUGUA',"“When you educate one person you can change a life, when you educate many you can change the world if you are planning for a lifetime, ”",new Date(2020,10,17)),
      new Quote(4,'LAVENDAH AKAKA', " “The beautiful thing about learning is that no one can take it away from you.'Patience can cook a stone ' 'Their is to gain without pain..” ",new Date(2020,12,21)),
