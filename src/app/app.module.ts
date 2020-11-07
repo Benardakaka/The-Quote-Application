@@ -14,6 +14,7 @@ import { DateCountPipe } from './date-count.pipe';
     QuoteComponent,
     QuoteFormComponent,
     DateCountPipe,
+   
   ],
   imports: [
     BrowserModule,
@@ -24,3 +25,4 @@ import { DateCountPipe } from './date-count.pipe';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class AppBootstrapModule {}

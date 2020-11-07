@@ -5,15 +5,11 @@ button{
     display: flexbox;
     height: 2em;
     width: 400px;
-    
 }
  h1{
      background-color: darkkhaki;
  }
 
- .card-body{
-     background-image: url(src/assets/phipiaf.jpeg);
- }
 
  .card-group:hover{
      background-color: whitesmoke;
