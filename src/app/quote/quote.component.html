@@ -20,11 +20,12 @@
            <p>{{quote.description}}</p> 
            <p><b>{{quote.completeDate|dateCount}} Days Ago</b></p> 
           <button class="btn btn-primary"(click)='like(i)'>LIKE {{ quote.like }}</button><br>
-          <button class="btn btn-secondary"(click)='unlike(i)'>UNLIKE {{ quote.unlike }}</button><br>
-          <button class="btn btn-danger" (click) = 'deleteQuote($event,i)'><p><strong>DELETE</strong></p></button><br>
+          <button class="btn btn-secondary"(click)='unlike(i)'><p><b><i>Unlike</i></b></p> {{ quote.unlike }}</button><br>
+          <button class="btn btn-danger" (click) = 'deleteQuote($event,i)'><p><strong><i>Delete</i></strong></p></button><br>
         </div>
       </div>
     </div>
+    
   <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
 </div>
 </div>
