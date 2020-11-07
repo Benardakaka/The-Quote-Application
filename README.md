@@ -7,7 +7,10 @@
 
  ## TECKNOLOGY USED
  * HTML
- 
+ * ANGULAR CLI
+ * CSS
+ * BOOTSTRAP
+ * MARKDOWM
 Topics
 Resources
 
