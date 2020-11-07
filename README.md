@@ -6,23 +6,21 @@
 # BENARD AKAKA
 
  ## TECKNOLOGY USED
- * HTML
- * ANGULAR CLI
- * CSS
- * BOOTSTRAP
- * MARKDOWM
+ * [HTML5]
+ * [ANGULARCLI]
+ * [CSS]
+ * [BOOTSTRAP]
+ * [MARKDOWM]
 Topics
 Resources
 
-This project was generated with [Angular CLI](https://github.com/Benardakaka/The-Quote-Application) version 10.2.0.
+This project was generated with [(https://github.com/Benardakaka/The-Quote-Application)] version 10.2.0.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to [`http://localhost:4200/`]. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
