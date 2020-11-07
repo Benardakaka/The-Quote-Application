@@ -7,22 +7,22 @@
   
  <div class="container-fluid">
   <div class="row flex-top justify-content-center">
-  <!-- <div class="row">
-    <div class="col-md-3"> -->
+
       <div class="card" style="width: 18rem" *ngFor="let quote of quotes; let i = index">
      
         <div class="card-group" >
 
           <h5 class="card-title">{{ quote.id }} {{ quote.author }}</h5>
           <p class="card-text">{{ quote.user }}</p>
+           <p>{{quote.description}}</p> 
+           <p><b>{{quote.completeDate|dateCount}} Days Ago</b></p> 
           <button class="btn btn-primary" (click)='like(i)'>LIKE {{ quote.like }}</button><br>
           <button class="btn btn-info" (click)='unlike(i)'>UNLIKE {{ quote.unlike }}</button><br>
-          <button class="btn btn-secondary" (click) = 'deleteQuote($event,i)'><p><strong>DELETE</strong></p></button><br>
+          <button class="btn btn-danger" (click) = 'deleteQuote($event,i)'><p><strong>DELETE</strong></p></button><br>
         </div>
       </div>
     </div>
-  <!-- </div>
-  </div> -->
   <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
 </div>
+
 </div>
